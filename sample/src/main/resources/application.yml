@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  error:
+    include-exception: false # Response ? Exception ? ????
+    include-stacktrace: never # Response ? Stack Trace ? ???? (never | always | on_param) on_trace_params ? deprecated
+    whitelabel:
+      enabled: false  # ?? ?? ? Spring ?? ?? ??? ?? ??
+    tomcat:
+      max-swallow-size: -1
+      max-http-form-post-size: 20MB
