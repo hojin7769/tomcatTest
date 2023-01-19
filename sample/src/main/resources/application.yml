@@ -14,3 +14,8 @@ server:
     tomcat:
       max-swallow-size: -1
       max-http-form-post-size: 20MB
+tomcat:
+  ajp:
+    protocol: AJP/1.3
+    port: 8009
+    enabled: true

@@ -11,4 +11,9 @@ public class TestClass {
     public String testMethod(){
         return "sss";
     }
+
+    @GetMapping("/test1")
+    public String testMethod1(){
+        return "21414512412";
+    }
 }
